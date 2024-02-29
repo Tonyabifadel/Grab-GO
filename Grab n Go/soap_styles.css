@@ -1,0 +1,339 @@
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+.head {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    color: #0d0d0d;
+}
+
+.head p {
+    font-size: 18px;
+    text-align: center;
+    font-family: Footlight MT Light;
+}
+
+.head img {
+    margin-bottom: 20px; /* Adjust spacing between image and paragraph */
+    width: 200px;
+}
+
+
+.navbar {
+    width: 100%;
+    background-color: #d1eb94;
+}
+
+.navbar a:hover {
+    background-color: #fafcf9;
+}
+
+/* Slider 1 */
+.Bestcarousel {
+    width: 100vw;
+    max-width: 100%;
+    margin: 10px;
+}
+
+.best-carousel-item img {
+    height: 550px;
+    object-fit: cover;
+}
+
+.carousel {
+    width: 100vw;
+    max-width: 100%;
+    margin: 10px;
+}
+
+.carousel-item img {
+    height: 550px;
+    object-fit: cover;
+}
+
+/* Shop Now Button*/
+.shop-now {
+    border-radius: 30px;
+    background-color: #d1eb94;
+    color: rgb(32, 57, 3);
+    transition: background-color 0.3s, color 0.3s;
+    padding: 10px 20px;
+    font-size: 25px;
+}
+
+.shop-now:hover, .shop-now:focus {
+    text-decoration: none;
+    background-color: #f4f7ed;
+    color: rgb(32, 57, 3);
+}
+
+/* Customize */
+.customize-container {
+    background-color: #d1eb94;
+    margin: 40px;
+    margin-bottom: 60px;
+    padding: 20px;
+}
+
+.customize-title {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.customize-info {
+    display: flex;
+    flex-direction: column;
+}
+
+.customize-text {
+    width: 100%;
+    margin: 10px 0;
+}
+
+.contact-us-button .btn {
+    border-radius: 20px;
+    background-color:  #b5dd5d;
+    border: none;
+    color: white;
+    transition: background-color 0.3s;
+    align-self: center;
+    margin-top: 20px;
+}
+
+.contact-us-button .btn:hover {
+    background-color: #cae68d;
+}
+
+/* Best Seller */
+.best-seller-container {
+    background-color:#d1eb94;
+    margin: 30px;
+    padding: 20px;
+}
+
+.best-seller-title {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.best-seller-info {
+    display: flex;
+    flex-direction: column;
+}
+
+.best-seller-text {
+    width: 100%;
+    margin: 10px 0;
+}
+
+/* Our Story */
+.story-container {
+    background-color: #d1eb94;
+    margin: 30px;
+    padding: 20px;
+}
+
+.story-title {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.story-info {
+    display: flex;
+    flex-direction: column;
+}
+
+.story-text {
+    width: 100%;
+    margin: 10px 0;
+}
+
+.story-image {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.story-image img {
+    width: 100%;
+}
+
+
+/* View All button */
+.last-button-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+    margin-top: 40px;
+}
+
+.view-all-link {
+    display: inline-block;
+    padding: 15px 30px;
+    border-radius: 50px;
+    background-color: #d1eb94;
+    color: rgb(3, 3, 3);
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.view-all-link:hover, .view-all-link:focus {
+    background-color:  #cadf9f;
+    text-decoration: none;
+    color: rgb(3, 3, 3);
+}
+
+/* Footer + Logos */
+footer {
+    background-color: #d1eb94;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.footer-container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.footer-container p {
+    margin-top: 50px;
+}
+.footer-container h3 {
+    font-family: 'French Script MT';
+    font-size: 40px;
+}
+.social-icons {
+    margin-top: 20px;
+}
+.social-icons a {
+    margin: 0 10px;
+}
+.social-icons img:hover {
+    transform: translateY(-5px);
+    filter: invert(50%);
+}
+
+.social-icons img {
+    width: 30px;
+    height: auto;
+    transition: transform 0.1s ease-in-out;
+}
+.social-icons img {
+    width: 30px;
+    height: auto;
+    transition: transform 0.1s ease-in-out;
+}
+
+/* All Products page */
+.all-products-title {
+    margin-top: 30px;
+   background-color: #d1eb94;;
+    font-family: Footlight MT Light;
+}
+
+.product {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .product img {
+    display: block;
+    margin: 50px;
+    width: 250px;
+    height: 250px;
+    transition: transform 0.2s ease-in-out; 
+  }
+  .product:hover img {
+    transform: scale(1.1); 
+  }
+  
+  .product-button {
+    position: absolute;
+    top: 75%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 10px 20px;
+    background-color: rgba(232, 241, 187, 0.7);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .product-button:hover {
+    background-color: rgba(255, 255, 255, 0.9);
+  }
+  
+
+  /* Occasion */
+  .occasion-title {
+    margin-top: 30px;
+    margin-bottom: 30px;
+   background-color: #d1eb94;;
+    font-family: Footlight MT Light;
+}
+
+.pic-occasion img{
+    width: 100vw;
+    max-width: 100%;
+    margin: 30px;
+    height: 60vh;
+}
+@media only screen and (min-width: 600px) {
+    .customize-info,
+    .best-seller-info,
+    .story-info {
+        flex-direction: row;
+    }
+
+    .customize-text,
+    .best-seller-text,
+    .story-text {
+        width: 50%;
+        margin: 20px;
+    }
+
+    .story-image {
+        width: 50%;
+        margin-right: 20px;
+        margin-bottom: 0;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .Bestcarousel,
+    .carousel,
+    .story-container,
+
+    .customize-container{
+        margin-right: 20px;
+    }
+    
+    .best-seller-container{
+        margin-right: 30px;
+    }
+
+    .footer-container {
+        margin: 20px;
+    }
+    
+    .customize-container,
+    .story-container,
+    .best-seller-container {
+        margin-top: 50px;
+    }
+    
+    .cart-item {
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    /* Adjusting Contact Us button */
+    .contact-us-button .btn {
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 20px; /* Adjust as needed */
+    }
+}
