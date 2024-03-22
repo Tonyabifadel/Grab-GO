@@ -33,7 +33,7 @@ function Carousel(){
                     <div className="col">
                         <button onClick={goToPrevious}>
                             <FontAwesomeIcon icon={faArrowLeft} />
-                        </button>
+                        </button> 
                     </div>
                     <div className="col" style={{display:"flex", justifyContent:"end"}}>
                         <button onClick={goToNext}>
