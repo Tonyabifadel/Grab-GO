@@ -6,6 +6,7 @@ function Customize(){
         <>
             <Head />
             <Navbar />
+            
         </>
     )
 }
