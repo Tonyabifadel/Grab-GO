@@ -2,14 +2,17 @@ import Navbar from "../navs/Navbar";
 import Head from "../navs/Head";
 import Footer from '../navs/Footer';
 
-function Hair(){
+
+function Lip1(){
     return (
         <>
             <Head />
             <Navbar />
+           
+                
             <Footer/>
         </>
     )
 }
 
-export default Hair;
+export default Lip1;

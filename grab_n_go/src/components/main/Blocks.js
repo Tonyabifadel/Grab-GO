@@ -139,20 +139,21 @@ function Blocks(){
             </div>
 
             <div className="container blocks-container">
-                <div className="row">
-                    <div className="col blocks-head">
-                        <h2>Our Story</h2>
-                    </div>
-                </div>
-                <div className="row">
-                    <div className="col">
-                        <img src='images/story.JPG' alt="Slide" style={{width:'98%', height:"70vh", marginTop:"30px"}}/>
-                    </div>
-                    <div className="col blocks-body">
-                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Necessitatibus dolorum suscipit eum quis quae distinctio temporibus, laboriosam dolorem ipsam nostrum ducimus, ullam debitis culpa fugit. Suscipit nulla provident dicta accusamus!</p>
-                    </div>
-                </div>
-            </div>
+    <div className="row">
+        <div className="col blocks-head">
+            <h2>Our Story</h2>
+        </div>
+    </div>
+    <div className="row">
+        <div className="col">
+            <img src='images/story.JPG' alt="Slide" style={{width:'98%', height:"70vh", marginTop:"30px"}}/>
+        </div>
+        <div className="col blocks-body">
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Necessitatibus dolorum suscipit eum quis quae distinctio temporibus, laboriosam dolorem ipsam nostrum ducimus, ullam debitis culpa fugit. Suscipit nulla provident dicta accusamus!</p>
+        </div>
+    </div>
+</div>
+
         </>
     )
 }

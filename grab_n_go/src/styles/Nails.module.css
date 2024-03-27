@@ -1,0 +1,32 @@
+.product {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .product img {
+    display: block;
+    margin: 50px;
+    width: 250px;
+    height: 250px;
+    transition: transform 0.2s ease-in-out; 
+  }
+  .product:hover img {
+    transform: scale(1.1); 
+  }
+  
+  .button {
+    position: absolute;
+    top: 75%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 10px 20px;
+    background-color: rgba(232, 241, 187, 0.7);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .product-button:hover {
+    background-color: rgba(255, 255, 255, 0.9);
+  }
+  

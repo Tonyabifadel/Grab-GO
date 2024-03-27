@@ -1,0 +1,38 @@
+.container {
+  display: flex;
+  height: 100vh; 
+  margin: 30px;
+}
+
+.product {
+  width: 50%; 
+ 
+}
+
+.product img{
+  height: 600px;
+  width: 600px;
+}
+
+.text {
+  width: 50%; 
+}
+
+.text h6{
+  color: grey;
+}
+
+/* nail1.module.css */
+
+.text .cart {
+  background-color: #f7f9fb; /* Blue background color */
+  color: #171616; /* White text color */
+  padding: 15px 80px; /* Padding */
+  border:1px solid black; /* No border */
+  border-radius: 5px; /* Rounded corners */
+  cursor: pointer; /* Cursor style on hover */
+}
+
+.text .cart:hover {
+  background-color: #aeb5bb; /* Darker blue background color on hover */
+}

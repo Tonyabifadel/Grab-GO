@@ -2,6 +2,7 @@ import { useState } from "react";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faArrowRight } from '@fortawesome/free-solid-svg-icons';
 import { faArrowLeft } from '@fortawesome/free-solid-svg-icons';
+import { Link } from "react-router-dom";
 
 
 function Carousel(){
@@ -42,7 +43,7 @@ function Carousel(){
                     </div>
                 </div>
                 <div className="carousel-shop">
-                    <button>Shop Now</button>
+                    <Link className="shop-now" to="/all_products">Shop Now</Link>
                     <div style={{display:"flex", paddingTop:"15px"}}>
                     {/* hon images of size 3, map is a for loop will iterate 3 times w display l white lines, eza currentindex=index l gray line bt sir white */}
                         {images.map((_, index) => (  

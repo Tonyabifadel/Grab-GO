@@ -9,7 +9,7 @@ function Navbar(){
         <>
             <nav className="navbar navbar-expand-lg">
                 <div className="container-fluid">
-                    <a className="navbar-brand" href="#">Naturals</a>
+                <span className="navbar-brand">Naturals</span>
                     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span className="navbar-toggler-icon"></span>
                     </button>
@@ -22,17 +22,17 @@ function Navbar(){
                             <Link className="nav-link" to="/Occasions">Occasions</Link>
                         </li>
                         <li className="nav-item">
-                            <Link className="nav-link" to="/all_products">All Products</Link>
+                            <Link className="nav-link" to="/All_Products">All Products</Link>
                         </li>
                         <li className="nav-item ">
                             <a className="nav-link" onClick={() => setIsOpen(!isOpen)}>View Categories</a>
                             {isOpen && (
                                 <ul className="dropdown-menu">
-                                    <li><Link className="dropdown-item" to="/hair">Hair Care</Link></li>
-                                    <li><Link className="dropdown-item" to="/nails">Nails Care</Link></li>
-                                    <li><Link className="dropdown-item" to="/lips">Lips</Link></li>
-                                    <li><Link className="dropdown-item" to="/face">Lashes & Brows</Link></li>
-                                    <li><Link className="dropdown-item" to="/soap">Face Soaps</Link></li>
+                                    <li><Link className="dropdown-item" to="/Hair">Hair Care</Link></li>
+                                    <li><Link className="dropdown-item" to="/Nails">Nails Care</Link></li>
+                                    <li><Link className="dropdown-item" to="/Lips">Lips</Link></li>
+                                    <li><Link className="dropdown-item" to="/Face">Lashes & Brows</Link></li>
+                                    <li><Link className="dropdown-item" to="/Soap">Face Soaps</Link></li>
                                 </ul>
                             )}
                         </li>

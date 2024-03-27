@@ -13,6 +13,8 @@ import Lips from './components/categories/Lips'
 import Face from './components/categories/Face'
 import Soap from './components/categories/Soap'
 import Customize from './components/Customize'
+import Nail1 from './components/categories/Nail1';
+import Lip1 from './components/categories/Lip1';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -29,6 +31,10 @@ root.render(
         <Route path="/face" element={<Face />} />
         <Route path="/soap" element={<Soap />} />
         <Route path="/customize" element={<Customize />} />
+        <Route path='/all_products' element={<All_Products/>}/>
+        <Route path='/Nail1' element={<Nail1/>}/>
+        <Route path='/Lip1' element={<Lip1/>}/>
+
       </Routes>
     </Router>
   </React.StrictMode>

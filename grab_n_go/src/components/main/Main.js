@@ -3,6 +3,7 @@ import Carousel from './Carousel';
 import Blocks from './Blocks';
 import Footer from '../navs/Footer';
 import Head from '../navs/Head';
+import { Link } from "react-router-dom";
 
 function Main(){
     return(
@@ -11,7 +12,12 @@ function Main(){
             <Navbar />
             <Carousel />
             <Blocks />
+            <div className="shop-now-container">
+  <Link className="shop-now" to="/all_products">View All</Link>
+</div>
+
             <Footer />
+            
         </>
     )
 }
